@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue),
       routes: {
         "/" : (_) => HomeScreen(),
-        // "/drawer2": (_) => DrawerApp(),
+        "/drawer2": (_) => DrawerApp(),
       },
     );
   }
